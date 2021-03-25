@@ -1,0 +1,13 @@
+name: A Multibranch Template with Orphaned Items
+type: pipeline-template
+templateType: MULTIBRANCH
+parameters:
+  - name: repoUrl
+    type: string
+    displayName: Repo
+multibranch:
+  branchSource:
+    git:
+      remote: ${repoUrl}
+  orphanedItemStrategy:
+    daysToKeep: 3
