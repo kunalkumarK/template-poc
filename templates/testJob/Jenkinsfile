@@ -1,0 +1,5 @@
+node('LINUXHELPER'){
+  stage('checkout'){
+    echo "checkout"
+  }
+}
