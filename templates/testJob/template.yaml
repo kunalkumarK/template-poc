@@ -1,4 +1,5 @@
-name: A Multibranch Template with Orphaned Items
+version: 1
+name: test-template-multibarnch-job
 type: pipeline-template
 templateType: MULTIBRANCH
 parameters:
