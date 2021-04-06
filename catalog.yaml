@@ -2,4 +2,4 @@ version: 1
 type: pipeline-template-catalog
 
 name: testPoc
-displayName: Shared Template Catalog for POC
+displayName: Shared Template Catalog for POC purpose.
